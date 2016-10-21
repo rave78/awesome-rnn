@@ -2,9 +2,9 @@
 
 A curated list of resources dedicated to recurrent neural networks (closely related to *deep learning*).
 
-Maintainers - [Myungsub Choi](https://github.com/myungsub), [Jiwon Kim](https://github.com/kjw0612), [Taeksoo Kim](https://github.com/jazzsaxmafia)
+Maintainers - [Myungsub Choi](https://github.com/myungsub), [Taeksoo Kim](https://github.com/jazzsaxmafia), [Jiwon Kim](https://github.com/kjw0612)
 
-We have pages for other topics: [awesome-deep-vision](http://jiwonkim.org/awesome-deep-vision/), [awesome-random-forest](http://jiwonkim.org/awesome-random-forest/)
+We have pages for other topics: [awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision), [awesome-random-forest](https://github.com/kjw0612/awesome-random-forest)
 
 
 ## Contributing
@@ -141,6 +141,8 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Lingpeng Kong, Chris Dyer, Noah Smith, "Segmental Recurrent Neural Networks", ICLR 2016.
 * Seq2seq for Sets [[Paper](http://arxiv.org/pdf/1511.06391v4.pdf)]
   * Oriol Vinyals, Samy Bengio, Manjunath Kudlur, "Order Matters: Sequence to sequence for sets", ICLR 2016.
+* Hierarchical Recurrent Neural Networks [[Paper](http://arxiv.org/abs/1609.01704)]
+  * Junyoung Chung, Sungjin Ahn, Yoshua Bengio, "Hierarchical Multiscale Recurrent Neural Networks", arXiv:1609.01704
 
 #### Memory
 
@@ -336,7 +338,8 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
   * Akira Fukui, Dong Huk Park, Daylen Yang, Anna Rohrbach, Trevor Darrell, and Marcus Rohrbach, *Multimodal Compact Bilinear Pooling for Visual Question Answering and Visual Grounding*, arXiv:1606.01847
 * Postech [[Paper](http://arxiv.org/pdf/1606.03647.pdf)]
   * Hyeonwoo Noh and Bohyung Han, *Training Recurrent Answering Units with Joint Loss Minimization for VQA*, arXiv:1606.03647
-* 
+* SNU + NAVER [[Paper](http://arxiv.org/abs/1610.04325)]
+  * Jin-Hwa Kim, Kyoung Woon On, Jeonghee Kim, Jung-Woo Ha, Byoung-Tak Zhang, *Hadamard Product for Low-rank Bilinear Pooling*, arXiv:1610.04325
 * Video QA
   * CMU + UTS [[paper](http://arxiv.org/abs/1511.04670)]
     * Linchao Zhu, Zhongwen Xu, Yi Yang, Alexander G. Hauptmann, Uncovering Temporal Context for Video Question and Answering, arXiv:1511.04670
@@ -356,7 +359,7 @@ Please feel free to [pull requests](https://github.com/kjw0612/awesome-deep-visi
 * Scott Reed and Nando de Freitas, *Neural Programmer-Interpreters*, arXiv:1511.06279 [[Paper](http://arxiv.org/pdf/1511.06279.pdf)]
 * Karol Kurach, Marcin Andrychowicz, and Ilya Sutskever, *Neural Random-Access Machines*, arXiv:1511.06392 [[Paper](http://arxiv.org/pdf/1511.06392.pdf)]
 * Łukasz Kaiser and Ilya Sutskever, *Neural GPUs Learn Algorithms*, arXiv:1511.08228 [[Paper](http://arxiv.org/pdf/1511.08228.pdf)]
-* Ethan Caballero, *Skip-Thought Memory Networks*, arXiv:1511.6420 [[Paper](arxiv.org/pdf/1511.06420.pdf)]
+* Ethan Caballero, *Skip-Thought Memory Networks*, arXiv:1511.6420 [[Paper](https://pdfs.semanticscholar.org/6b9f/0d695df0ce01d005eb5aa69386cb5fbac62a.pdf)]
 * Wojciech Zaremba, Tomas Mikolov, Armand Joulin, and Rob Fergus, *Learning Simple Algorithms from Examples*, arXiv:1511.07275 [[Paper](http://arxiv.org/pdf/1511.07275.pdf)]
 
 ### Robotics
@@ -410,11 +413,15 @@ Recurrent Neural Networks*, arXiv:1506.03099 / NIPS 2015 [[Paper](http://arxiv.o
 * [The Unreasonable Effectiveness of RNNs](http://karpathy.github.io/2015/05/21/rnn-effectiveness/) by [Andrej Karpathy](http://cs.stanford.edu/people/karpathy/)
 * [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) in [Colah's blog](http://colah.github.io/)
 * [WildML](http://www.wildml.com/) blog's RNN tutorial [[Part1](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/)], [[Part2](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-2-implementing-a-language-model-rnn-with-python-numpy-and-theano/)], [[Part3](http://www.wildml.com/2015/10/recurrent-neural-networks-tutorial-part-3-backpropagation-through-time-and-vanishing-gradients/)], [[Part4](http://www.wildml.com/2015/10/recurrent-neural-network-tutorial-part-4-implementing-a-grulstm-rnn-with-python-and-theano/)]
+* [RNNs in Tensorflow, a Practical Guide and Undocumented Features](http://www.wildml.com/2016/08/rnns-in-tensorflow-a-practical-guide-and-undocumented-features/)
 * [Optimizing RNN Performance](https://svail.github.io/) from Baidu's Silicon Valley AI Lab.
 * [Character Level Language modelling using RNN](http://nbviewer.jupyter.org/gist/yoavg/d76121dfde2618422139) by Yoav Goldberg
 * [Implement an RNN in Python](http://peterroelants.github.io/posts/rnn_implementation_part01/).
 * [LSTM Backpropogation](http://arunmallya.github.io/writeups/nn/lstm/index.html#/)
+* [Introduction to Recurrent Networks in TensorFlow](https://danijar.com/introduction-to-recurrent-networks-in-tensorflow/) by Danijar Hafner
+* [Variable Sequence Lengths in TensorFlow](https://danijar.com/variable-sequence-lengths-in-tensorflow/) by Danijar Hafner
 
 ## Online Demos
 * Alex graves, hand-writing generation [[link](http://www.cs.toronto.edu/~graves/handwriting.html)]
 * Ink Poster: Handwritten post-it notes [[link](http://www.inkposter.com/?)]
+* LSTMVis: Visual Analysis for Recurent Neural Networks [[link](http://lstm.seas.harvard.edu/)]
